@@ -1,0 +1,9 @@
+python_binary(
+    name='load_pkg',
+    source='load_pkg.py',
+    dependencies=[
+        'src/python/mod',
+        'src/python/mod/submod',
+        'src/python/mod/submod/subsubmod',
+    ],
+)
